@@ -1,0 +1,129 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+}
+.first, .second, .three{
+    background-color: #666666;
+    height: auto;
+}
+.headerSection, .footerSection, .mainSection{
+    margin-top: 2.2%;
+    margin-bottom: 2.2%;
+    padding-bottom: 2.2%;
+}
+.headerSection, .mainSection{
+    border-bottom: #666666 2px solid;
+}
+.three{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+    padding: 25px 0;
+}
+.three a{
+    color: #ffffff;
+    margin-right: 5%;
+}
+.left{
+    height: fit-content;
+    background-color: #777777;
+    color: #ffffff;
+}
+.left a, .left h4{
+    text-decoration: none;
+    color: #ffffff;
+}   
+.left h5{
+    margin: 25px 0 0 0 ;
+}
+.left ul{
+    margin: 0 0 25px 0 ;
+}
+.left li{
+    list-style: none;
+}
+.mainBlockOne{
+    background-color:#4444;
+    margin: 0 0 25px 0;
+}
+.center a{
+    text-decoration: none;
+}
+.center h5{
+    padding: 25px 25px 0 25px;
+}
+.center li{
+    list-style: square;
+}
+.center ul{
+    margin: 25px 0 25px 75px;
+}
+.mainBlockOne p{
+    padding: 0 0 25px 25px;
+}
+.firstLorem, .secondLorem{
+    background-color:#4444;
+    margin: 0 12px;
+}
+.mainBlockthree{
+    display: flex;
+    flex-direction: column;
+}
+.footerOne, .footerTwo, .footerThree {
+    color: #ffffff;
+    background-color: #777777;
+}
+.footerTwo ul, .footerOne ul{
+    margin: 25px;
+}
+.footerTwo ul {
+    margin: 25px 25px 25px 50px;
+}
+.footerOne ul{
+    column-count: 2;
+}
+.footerOne li{
+    list-style: none;
+}
+.footerTwo li{
+    list-style: square;
+    padding: 1px 0;
+}
+.footerTwo{
+    margin: 0 25px;
+}
+.smallBlock{
+    background-color: #4444;
+    height: 150px;
+}
+.inlineBlock{
+    display: flex;
+    justify-content: space-between;
+}
+.inlineBlocks{
+    display: flex;
+}
+.smallBlockFlex{
+    display: flex;
+    flex-direction: column;
+}
+.smallBlockFlex .smallBlock{
+    margin: 0 0 30px;
+}
+.firstLorem p, .secondLorem p{
+    padding: 25px 25px 0 15px;
+}
+@media(max-width:769px){
+    .footerTwo{
+        margin: 0 0 0 0;
+    }
+    .center{
+        padding:  25px 0 0 0;
+    }
+}
